@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experiência visual do Attack Shark R5 — projeto de estudo de programação por Carlos Guedes.">
+    <title>ATTACK SHARK R5 — Experiência Visual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ====================== HERO / SCROLL-BOUND ====================== -->
+    <div class="scroll-bound" id="home">
+        <div class="sticky-content">
+
+            <canvas id="hero-canvas"></canvas>
+            <div class="overlay"></div>
+
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#tech-specs">Tech Specs</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="hero-main">
+                <section class="hero">
+                    <div class="hero-content" id="hero-content">
+                        <div class="hero-eyebrow" data-hero-text>ATTACK SHARK — R5 ULTRA</div>
+                        <h1 data-hero-text>
+                            O Futuro dos<br>
+                            <span class="hero-title-gradient">Mouses Chegou.</span>
+                        </h1>
+                        <p data-hero-text>Ultraleve, 39g de pura performance com<br>sensor PAW3950 MAX e polling rate de 8K.</p>
+                        <div class="hero-stats" data-hero-text>
+                            <div class="hero-stat">
+                                <span class="stat-number">39<em>g</em></span>
+                                <span class="stat-label">Ultra-light</span>
+                            </div>
+                            <div class="hero-stat-divider"></div>
+                            <div class="hero-stat">
+                                <span class="stat-number">42K<em>dpi</em></span>
+                                <span class="stat-label">Sensor</span>
+                            </div>
+                            <div class="hero-stat-divider"></div>
+                            <div class="hero-stat">
+                                <span class="stat-number">8K<em>Hz</em></span>
+                                <span class="stat-label">Polling Rate</span>
+                            </div>
+                        </div>
+                        <a href="#features" class="btn" data-hero-text>Explorar</a>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Progress bar premium -->
+            <div class="hero-progress-bar">
+                <div class="hero-progress-fill" id="hero-progress-fill"></div>
+            </div>
+
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator" id="scroll-indicator">
+                <span>scroll</span>
+                <svg width="20" height="28" viewBox="0 0 20 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 2 L10 24" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M4 18 L10 24 L16 18" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ====================== CONTEÚDO PÓS-VÍDEO ====================== -->
+    <div class="page-content">
+
+        <!-- Section divider -->
+        <div class="section-divider-top"></div>
+
+        <!-- Features -->
+        <section class="features-section" id="features">
+            <div class="section-header" data-reveal>
+                <span class="section-eyebrow">Design &amp; Engenharia</span>
+                <h2 class="section-title">Performance Elevada<br>a uma Nova Dimensão</h2>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card" data-reveal>
+                    <div class="feature-img-wrapper">
+                        <img src="img/feature_weight.png" alt="Ultra-light, only 39g — Imagem meramente ilustrativa gerada por IA" loading="lazy">
+                        <div class="feature-img-tag">39g</div>
+                    </div>
+                    <div class="feature-text">
+                        <span class="feature-eyebrow">Construção</span>
+                        <h3>Ultra-light Carbon Fiber</h3>
+                        <p>Mouse ultraleve ATTACK SHARK R5 utiliza material de fibra de carbono moldada por injeção e design oco, que reduz o peso excessivo até apenas 39g. Maior resistência à pressão e ao desgaste, projetado para velocidade e precisão em todos os gêneros.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card reverse" data-reveal>
+                    <div class="feature-img-wrapper">
+                        <img src="img/feature_sensor.png" alt="PixArt PAW3950 MAX — Imagem meramente ilustrativa gerada por IA" loading="lazy">
+                        <div class="feature-img-tag">42K DPI</div>
+                    </div>
+                    <div class="feature-text">
+                        <span class="feature-eyebrow">Precisão</span>
+                        <h3>PixArt PAW3950 MAX</h3>
+                        <p>Equipado com o sensor PAW3950 MAX da PixArt, oferece máxima precisão para jogos competitivos: 42000 DPI programáveis, 750 IPS de velocidade e aceleração de 50g. Com pés de PTFE 100% Virgin Grade para deslizamento perfeito e poder de parada preciso.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-reveal>
+                    <div class="feature-img-wrapper">
+                        <img src="img/feature_connectivity.png" alt="Tri-mode Connectivity — Imagem meramente ilustrativa gerada por IA" loading="lazy">
+                        <div class="feature-img-tag">8K Hz</div>
+                    </div>
+                    <div class="feature-text">
+                        <span class="feature-eyebrow">Conectividade</span>
+                        <h3>Tri-mode &amp; 8K Polling Rate</h3>
+                        <p>Taxa de polling sem fio de 8kHz com tecnologia de última geração. Alterna perfeitamente entre Bluetooth, 2.4GHz e USB-C. Latência zero na prática — movimentos do cursor capturados com resposta de disparo imperceptível ao olho humano.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card reverse" data-reveal>
+                    <div class="feature-img-wrapper">
+                        <img src="img/feature_driver.png" alt="AI Designed Driver — Imagem meramente ilustrativa gerada por IA" loading="lazy">
+                        <div class="feature-img-tag">Cloud</div>
+                    </div>
+                    <div class="feature-text">
+                        <span class="feature-eyebrow">Software</span>
+                        <h3>AI Designed Driver</h3>
+                        <p>Diga adeus ao software controlador tradicional. O driver em nuvem identifica automaticamente o seu sistema e libera ajuste de DPI, polling rate, gravação de macros e mapeamento de teclas — tudo sem instalar nada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especificações Técnicas -->
+        <section class="specs-section" id="tech-specs">
+            <div class="section-header" data-reveal>
+                <span class="section-eyebrow">Ficha Técnica</span>
+                <h2 class="section-title">Especificações</h2>
+            </div>
+            <div class="specs-container">
+                <div class="specs-box" data-reveal>
+                    <div class="specs-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg>
+                    </div>
+                    <h3>Geral</h3>
+                    <ul>
+                        <li><strong>Marca</strong>Attack Shark</li>
+                        <li><strong>Modelo</strong>R5 Ultra</li>
+                        <li><strong>Cor</strong>Vermelho</li>
+                        <li><strong>Anatel</strong>007142414316</li>
+                    </ul>
+                </div>
+                <div class="specs-box" data-reveal>
+                    <div class="specs-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+                    </div>
+                    <h3>Sensor &amp; Desempenho</h3>
+                    <ul>
+                        <li><strong>Sensor</strong>Óptico PAW3950 MAX</li>
+                        <li><strong>Resolução</strong>42.000 dpi</li>
+                        <li><strong>Velocidade</strong>750 ips</li>
+                        <li><strong>Polling Rate</strong>8.000 Hz</li>
+                    </ul>
+                </div>
+                <div class="specs-box" data-reveal>
+                    <div class="specs-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Design &amp; Bateria</h3>
+                    <ul>
+                        <li><strong>Peso</strong>39 g</li>
+                        <li><strong>Dimensões</strong>11,9 × 6,1 × 3,6 cm</li>
+                        <li><strong>Orientação</strong>Ambidestro</li>
+                        <li><strong>Bateria</strong>até 200 h</li>
+                    </ul>
+                </div>
+                <div class="specs-box" data-reveal>
+                    <div class="specs-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg>
+                    </div>
+                    <h3>Conectividade</h3>
+                    <ul>
+                        <li><strong>Sem fio</strong>Bluetooth + 2.4 GHz</li>
+                        <li><strong>Com fio</strong>USB-C</li>
+                        <li><strong>Sistemas</strong>Linux, Win 10/7</li>
+                        <li><strong>Botões</strong>2</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================== SUPORTE ====================== -->
+        <section class="support-section" id="support">
+            <div class="support-bg" style="background-image: url('img/support_bg.png')"></div>
+            <div class="support-bg-overlay"></div>
+
+            <div class="support-inner">
+                <div class="section-header" data-reveal>
+                    <span class="section-eyebrow">Suporte</span>
+                    <h2 class="section-title">Estamos Aqui<br>Para Ajudar</h2>
+                    <p class="section-subtitle" data-reveal>Encontre tudo o que você precisa para configurar, personalizar e tirar o máximo do seu R5 Ultra.</p>
+                </div>
+
+                <div class="support-grid">
+                    <div class="support-card" data-reveal>
+                        <div class="support-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <h3>Documentação</h3>
+                        <p>Guia completo de configuração, atalhos e uso do driver em nuvem. Compatível com Windows e Linux.</p>
+                        <a href="#" class="support-link">Ver documentação →</a>
+                    </div>
+
+                    <div class="support-card" data-reveal>
+                        <div class="support-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                        <h3>Comunidade</h3>
+                        <p>Conecte-se a outros jogadores, compartilhe configurações de DPI, macros e perfis de jogo.</p>
+                        <a href="#" class="support-link">Acessar fórum →</a>
+                    </div>
+
+                    <div class="support-card" data-reveal>
+                        <div class="support-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                            </svg>
+                        </div>
+                        <h3>Tutoriais</h3>
+                        <p>Vídeos passo a passo para configuração do polling rate, modo sem fio e personalização de botões.</p>
+                        <a href="#" class="support-link">Assistir tutoriais →</a>
+                    </div>
+
+                    <div class="support-card" data-reveal>
+                        <div class="support-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+                            </svg>
+                        </div>
+                        <h3>FAQ</h3>
+                        <p>Dúvidas frequentes sobre conectividade Tri-mode, bateria de 200h, garantia e compatibilidade.</p>
+                        <a href="#" class="support-link">Ver perguntas →</a>
+                    </div>
+
+                    <div class="support-card" data-reveal>
+                        <div class="support-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            </svg>
+                        </div>
+                        <h3>Driver Cloud</h3>
+                        <p>Acesse o painel inteligente diretamente no navegador. Sem instalação, sem complicação — só performance.</p>
+                        <a href="#" class="support-link">Abrir driver →</a>
+                    </div>
+
+                    <div class="support-card support-card--highlight" data-reveal>
+                        <div class="support-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2z"/>
+                            </svg>
+                        </div>
+                        <h3>Contato Direto</h3>
+                        <p>Suporte especializado da Attack Shark. Atendimento via e-mail com resposta em até 24h úteis.</p>
+                        <a href="mailto:support@attackshark.com" class="support-link support-link--cta">Entrar em contato →</a>
+                    </div>
+                </div>
+
+                <!-- Banner Garantia -->
+                <div class="support-banner" data-reveal>
+                    <div class="support-banner-left">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                        <div>
+                            <strong>Garantia de 1 Ano</strong>
+                            <span>Cobertura completa contra defeitos de fabricação</span>
+                        </div>
+                    </div>
+                    <div class="support-banner-right">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>
+                        </svg>
+                        <div>
+                            <strong>Registro do Produto</strong>
+                            <span>Registre seu R5 Ultra e ative benefícios exclusivos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Créditos -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">R5</div>
+                <p class="footer-author">Desenvolvido por <strong>Carlos Guedes</strong></p>
+                <p class="footer-disclaimer">Este site não é de uma empresa nem possui fins comerciais.<br>Foi criado exclusivamente como projeto pessoal de estudo de programação web.</p>
+                <p class="footer-ai-notice">Todas as imagens presentes neste site são meramente ilustrativas e foram geradas por inteligência artificial.</p>
+                <div class="footer-divider"></div>
+                <p class="footer-copy">&copy; 2026 Carlos Guedes — Projeto de Estudo</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
