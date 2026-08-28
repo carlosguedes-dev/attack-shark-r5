@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦈 Attack Shark R5 Ultra — Experiência Visual ⚡🎮
+#  Attack Shark R5 Ultra — Experiência Visual 
 
 **Uma landing page ultra-premium, interativa e imersiva desenvolvida para celebrar a performance extrema do mouse de alta performance Attack Shark R5 Ultra.**
 
@@ -9,11 +9,11 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![Feito com Amor](https://img.shields.io/badge/Feito_com-MUITO_AMOR_❤️-ff0055?style=for-the-badge)](https://github.com/carlosguedes-dev)
+[![Feito com Amor](https://img.shields.io/badge/Feito_com-MUITO_AMOR_-ff0055?style=for-the-badge)](https://github.com/carlosguedes-dev)
 
 ---
 
-🔗 **[Acessar o Projeto Ao Vivo / Demonstração Online](https://carlosguedes-dev.github.io/attack-shark-r5/)**
+ **[Acessar o Projeto Ao Vivo / Demonstração Online](https://carlosguedes-dev.github.io/attack-shark-r5/)**
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 
 O **Attack Shark R5 Ultra — Experiência Visual** é um projeto de vitrine digital (*Product Showcase Landing Page*) de alto padrão concebido para redefinir a forma como periféricos de eSports e hardware de elite são apresentados na web. Explorando os limites da interatividade moderna, a interface transforma a navegação do usuário em uma jornada imersiva repleta de fluidez e tecnologia de ponta.
 
@@ -35,17 +35,17 @@ Este projeto foi construído como uma iniciativa de pesquisa e desenvolvimento e
 
 ---
 
-## ✨ Principais Funcionalidades
+##  Principais Funcionalidades
 
-- ⚡ **Hero com Animação Interativa ao Scroll**: Renderização dinâmica e sequencial de quadros (*frame scrubbing*) vinculada à rolagem da página, proporcionando uma experiência de visualização 360° fluida do mouse.
-- 💎 **Estética Dark Mode & Glassmorphism**: Cards com desfoque de fundo avançado (`backdrop-filter: blur`), bordas iluminadas com gradientes radiais e paleta cibernética moderna (Cyan e Neon Blue).
-- 📊 **Especificações Técnicas em Destaque**: Apresentação visual interativa das especificações de nível competitivo do periférico: **39g** de peso ultra-leve, sensor **42.000 DPI** e taxa de sondagem de **8000Hz (8KHz)**.
-- 🎬 **Micro-animações & Reveal on Scroll**: Elementos, textos e especificações surgem de forma orgânica e coreografada na tela através da `IntersectionObserver API` à medida que a leitura avança.
-- 📱 **Responsividade Absoluta Pixel-Perfect**: Arquitetura CSS flexível adaptada para entregar uma navegação de excelência em desktops ultrawide, notebooks, tablets e dispositivos móveis.
+-  **Hero com Animação Interativa ao Scroll**: Renderização dinâmica e sequencial de quadros (*frame scrubbing*) vinculada à rolagem da página, proporcionando uma experiência de visualização 360° fluida do mouse.
+-  **Estética Dark Mode & Glassmorphism**: Cards com desfoque de fundo avançado (`backdrop-filter: blur`), bordas iluminadas com gradientes radiais e paleta cibernética moderna (Cyan e Neon Blue).
+-  **Especificações Técnicas em Destaque**: Apresentação visual interativa das especificações de nível competitivo do periférico: **39g** de peso ultra-leve, sensor **42.000 DPI** e taxa de sondagem de **8000Hz (8KHz)**.
+-  **Micro-animações & Reveal on Scroll**: Elementos, textos e especificações surgem de forma orgânica e coreografada na tela através da `IntersectionObserver API` à medida que a leitura avança.
+-  **Responsividade Absoluta Pixel-Perfect**: Arquitetura CSS flexível adaptada para entregar uma navegação de excelência em desktops ultrawide, notebooks, tablets e dispositivos móveis.
 
 ---
 
-## 💻 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 O projeto foi desenvolvido inteiramente com tecnologias nativas (*Vanilla*), garantindo máxima performance de renderização, carregamento instantâneo e total controle arquitetural:
 
@@ -56,7 +56,7 @@ O projeto foi desenvolvido inteiramente com tecnologias nativas (*Vanilla*), gar
 
 ---
 
-## 📁 Estrutura de Arquivos
+##  Estrutura de Arquivos
 
 ```text
 attack-shark-r5/
@@ -73,7 +73,7 @@ attack-shark-r5/
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 A execução do projeto é extremamente simples e imediata, não exigindo instalação de dependências ou servidores complexos:
 
@@ -96,19 +96,19 @@ A execução do projeto é extremamente simples e imediata, não exigindo instal
 
 ---
 
-## 🤝 Como Contribuir
+##  Como Contribuir
 
 Contribuições da comunidade são sempre bem-vindas! Se você tem ideias para novas animações, melhorias na taxa de quadros, otimizações de CSS ou suporte a novos efeitos interativos, consulte o nosso arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber como enviar o seu *Pull Request*.
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto está distribuído sob a licença de código aberto **MIT**. Veja o arquivo [LICENSE](LICENSE) para obter todos os detalhes legais de uso e distribuição.
 
 ---
 
 <div align="center">
-  <p>Feito com todo o carinho e dedicação por <a href="https://github.com/carlosguedes-dev">Carlos Guedes</a> ❤️</p>
-  <p><b>Elevando o nível das experiências web de alta performance! ⚡✨</b></p>
+  <p>Feito com todo o carinho e dedicação por <a href="https://github.com/carlosguedes-dev">Carlos Guedes</a> </p>
+  <p><b>Elevando o nível das experiências web de alta performance! </b></p>
 </div>

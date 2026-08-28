@@ -7,7 +7,6 @@
     const TOTAL_FRAMES   = 192;
     const FRAME_PATH     = 'frames/frame_';
     const FRAME_EXT      = '.jpg';
-    // A partir de que progresso o texto começa a sumir (0.78 = 78% do scroll)
     const FADE_OUT_START = 0.78;
     // A que progresso está totalmente invisível
     const FADE_OUT_END   = 0.94;
@@ -102,7 +101,6 @@
         let progress = (scrollTop - offsetTop) / (scrollHeight - windowHeight);
         progress = Math.max(0, Math.min(1, progress));
 
-        // Frame
         const frameIndex = Math.min(
             Math.floor(progress * TOTAL_FRAMES),
             TOTAL_FRAMES - 1
@@ -113,7 +111,6 @@
             requestAnimationFrame(() => drawFrame(currentFrame));
         }
 
-        // Progress bar
         progressFill.style.width = `${progress * 100}%`;
 
         // Scroll indicator fade
